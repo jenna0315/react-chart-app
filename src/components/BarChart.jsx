@@ -1,5 +1,5 @@
 import ChartComponent from './ChartComponent';
-import { Bar } from 'react-chartjs-2';
+
 
 const BarChart = ({ data }) => {
     const barChartData = {
@@ -8,8 +8,8 @@ const BarChart = ({ data }) => {
         {
           label: 'Monthly Sales',
           data: data.sales,
-          backgroundColor: 'rgba(75, 192, 192, 0.2)',
-          borderColor: 'rgba(75, 192, 192, 1)',
+          backgroundColor: 'rgba(246, 36, 89, 1)',
+          borderColor: 'rgba(0, 0, 0, 1)',
           borderWidth: 1,
         },
       ],
