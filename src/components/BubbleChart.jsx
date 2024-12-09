@@ -8,7 +8,7 @@ const BubbleChart = ({ data }) => {
         data: data.sales.map((sale, index) => ({
           x: sale,  
           y: data.profits[index],  
-          r: data.expenses[index],  
+          r: data.expenses[index]/10,  
         })),
         backgroundColor: 'rgba(246, 36, 89, 1)', // Bubble color
         borderColor: 'rgba(0, 0, 0, 1)', // Border color
