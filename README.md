@@ -1,6 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Dynamic Chart Dashboard 
+using React, Vite, and Chart.js. This dashboard will display various interactive charts (Bar, Line, Scatter, Bubble) based on data fetched from an external file. It has reusable chart components and integrates multiple charts into a single application.
 
 Currently, two official plugins are available:
 
