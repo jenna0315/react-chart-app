@@ -1,4 +1,4 @@
-import React from 'react';
+import ChartComponent from './ChartComponent';
 import { Bar } from 'react-chartjs-2';
 
 const BarChart = ({ data }) => {
@@ -14,8 +14,15 @@ const BarChart = ({ data }) => {
         },
       ],
     };
-
-    return <Bar data={data} />;
+    const barChartOptions = {
+      scales: {
+        y: {
+          beginAtZero: true,
+        },
+      },
+    };
+    return <ChartComponent type="bar" data={barChartData} options={barChartOptions} />
 };
+
 
 export default BarChart;
